@@ -15,25 +15,25 @@ If AI was used for this learning-log-required problem, also complete `ai_reflect
 OJ problem number/title:
 
 ```text
-
+OJ3017 - Bill
 ```
 
 OJ submission ID, if submitted:
 
 ```text
-
+542803
 ```
 
 OJ status:
 
 ```text
-Pass / Not Pass / Not Submit
+Pass
 ```
 
 Independent time spent on this problem:
 
 ```text
-
+0-15 minutes
 ```
 
 Choose one:
@@ -73,7 +73,7 @@ Also explain the input, output, and important constraints.
 If you do not fully understand the problem yet, write what you currently understand. Your understanding may be incomplete or incorrect, but you must make a genuine attempt.
 
 ```text
-
+This problem wants me to make a program that input food/drinks price then output the price that already adds 10% service price and 7% VAT
 ```
 
 ---
@@ -93,9 +93,12 @@ This can be rough. It may be incomplete or different from your final solution.
 You may write pseudocode, a flowchart idea, or step-by-step thinking.
 
 ```text
-Step 1:
-Step 2:
-Step 3:
+Step 1: Input food/drinks price
+Step 2: Calculate service price
+Step 3: If service price is less than 50, service price will be 50. If service price is more than 1000, service price will be 1000
+Step 4: Make price = price + service price
+Step 5: Calculate total price by price + (price * 0.07)
+Step 6: Output the total price with 2 decimals
 ```
 
 ---
@@ -115,7 +118,7 @@ Do not copy AI's explanation.
 Do not copy another person's explanation.
 
 ```text
-
+My final approach is the same as my first plan because this is the shortest and simple way to solve this problem for me
 ```
 
 ---
@@ -135,31 +138,31 @@ If the input or output has many lines, write them inside the text blocks.
 Why I chose this case:
 
 ```text
-
+This is the case that service price is less than 50
 ```
 
 Input:
 
 ```text
-
+250
 ```
 
 Expected output:
 
 ```text
-
+321.00
 ```
 
 Actual output:
 
 ```text
-
+321.00
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ### Test Case 2
@@ -167,31 +170,31 @@ Pass / Not Pass
 Why I chose this case:
 
 ```text
-
+This is the case that service price is between 50 - 1000
 ```
 
 Input:
 
 ```text
-
+5555
 ```
 
 Expected output:
 
 ```text
-
+6538.23
 ```
 
 Actual output:
 
 ```text
-
+6538.23
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ### Test Case 3
@@ -199,31 +202,31 @@ Pass / Not Pass
 Why I chose this case:
 
 ```text
-
+This is the case that service price is more than 1000
 ```
 
 Input:
 
 ```text
-
+676767
 ```
 
 Expected output:
 
 ```text
-
+725210.69
 ```
 
 Actual output:
 
 ```text
-
+725210.69
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ---
@@ -233,7 +236,7 @@ Pass / Not Pass
 Did you use AI for this problem?
 
 ```text
-Yes / No
+No
 ```
 
 If yes, also complete:
@@ -251,7 +254,7 @@ If you only asked a friend, TA, or instructor and did not use AI, you do not nee
 Did you ask a friend, TA, instructor, or another person for help on this problem?
 
 ```text
-Yes / No
+No
 ```
 
 If yes, briefly explain what kind of help you received.
@@ -276,19 +279,19 @@ Not allowed:
 Who helped you?
 
 ```text
-
+Don't have
 ```
 
 What did they help with?
 
 ```text
-
+Don't have
 ```
 
 What did you still do by yourself?
 
 ```text
-
+All
 ```
 
 Did you copy any code from another person?
@@ -305,10 +308,10 @@ Write `Yes` for each statement.
 
 | Statement | Yes/No |
 |---|---|
-| I wrote this submission in my own words. | |
-| I understand my final code. | |
-| I recorded the real OJ status. | |
-| I did not copy AI-generated text directly into this file. | |
-| I did not copy code from another person. | |
-| If I received human help, I disclosed it in this file. | |
-| I submitted the final code to the OJ by myself. | |
+| I wrote this submission in my own words. | Yes |
+| I understand my final code. | Yes |
+| I recorded the real OJ status. | Yes |
+| I did not copy AI-generated text directly into this file. | Yes |
+| I did not copy code from another person. | Yes |
+| If I received human help, I disclosed it in this file. | Yes |
+| I submitted the final code to the OJ by myself. | Yes |
