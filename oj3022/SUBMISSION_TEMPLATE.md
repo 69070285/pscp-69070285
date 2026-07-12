@@ -94,7 +94,7 @@ You may write pseudocode, a flowchart idea, or step-by-step thinking.
 
 ```text
 Step 1: Input degree, first unit and second unit
-Step 2: If first unit is F,K,R it will transform to celsius (C) but if first unit is already celsius (C) then first unit = degree
+Step 2: If first unit is F,K,R it will transform to celsius (C), but if first unit is already celsius (C) then first unit = degree
 Step 3: Transform to second unit and output the result, if second unit is celsius (C) then output first unit because I already transform first unit to celsius
 ```
 
@@ -119,7 +119,7 @@ My first plan has many incorrect testcases, so I changed to this plan.
 
 Step 1: Input degree, first unit and second unit
 Step 2: If first unit = second unit then output degree
-Step 3: Otherwise, first unit is F,K,R it will transform to celsius (C) but if first unit is already celsius (C) then first unit = degree
+Step 3: Otherwise, first unit is F,K,R it will transform to celsius (C), but if first unit is already celsius (C) then first unit = degree
 Step 4: If second unit is F,K,R transform to second unit and output the result with 2 decimals. If second unit is celsius (C), the result will be first unit with 2 decimals because I already transform first unit to celsius (C)
 ```
 
