@@ -73,7 +73,7 @@ Also explain the input, output, and important constraints.
 If you do not fully understand the problem yet, write what you currently understand. Your understanding may be incomplete or incorrect, but you must make a genuine attempt.
 
 ```text
-This problem wants me to make a program that input degree, first unit and second unit and output is the result that first unit transform to second unit. This problem will be easy if I transform first unit to celsius at first because it's the base of all the method.
+This problem wants me to make a program that input degree, first unit and second unit then output the result that first unit transform to second unit. This problem will be easy if I transform first unit to celsius (C) at first because it's the base of all the method.
 ```
 
 ---
@@ -94,7 +94,7 @@ You may write pseudocode, a flowchart idea, or step-by-step thinking.
 
 ```text
 Step 1: Input degree, first unit and second unit
-Step 2: If first unit = F,K,R it will transform to celsius but if first unit is already celsius (C) then first unit = degree
+Step 2: If first unit is F,K,R it will transform to celsius (C) but if first unit is already celsius (C) then first unit = degree
 Step 3: Transform to second unit and output the result, if second unit is celsius (C) then output first unit because I already transform first unit to celsius
 ```
 
@@ -116,6 +116,7 @@ Do not copy another person's explanation.
 
 ```text
 My first plan has many incorrect testcases, so I changed to this plan.
+
 Step 1: Input degree, first unit and second unit
 Step 2: If first unit = second unit then output degree
 Step 3: Otherwise, first unit is F,K,R it will transform to celsius (C) but if first unit is already celsius (C) then first unit = degree
