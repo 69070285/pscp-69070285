@@ -2,7 +2,6 @@
 
 def main():
     """Main Function"""
-
     data1 = input().split()
     data2 = input().split()
     pearl = data1[0]

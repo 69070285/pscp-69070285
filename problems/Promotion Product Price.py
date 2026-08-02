@@ -2,7 +2,6 @@
 
 def main():
     """Main Function"""
-
     pencil, book, color = map(int, input().split())
 
     if pencil + book + color >= 3:
