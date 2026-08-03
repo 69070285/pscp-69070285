@@ -5,8 +5,6 @@ def main():
     member = input()
     amount = int(input())
     total = 0
-    result = 0
-    decimal = 0
 
     for _ in range(amount):
         item = float(input())
@@ -14,16 +12,11 @@ def main():
 
     match member:
         case "Y":
-            result = total * 0.95
-        case _:
-            if total >= 500:
-                result = total * 0.97
-            else:
-                result = total
+            total = total * 0.95
+        case "N" if total >= 500:
+            total = total * 0.97
 
-    decimal = f"{result:.3f}"
-    if decimal[-1] == "5":
-        result += 0.001
-    print(f"{result:.2f}")
+    total += 0.001
+    print(f"{total:.2f}")
 
 main()
