@@ -12,6 +12,9 @@ def main():
         all_greater.append(max(first, second))
         all_greater_str.append(str(max(first, second)))
 
-    print(" + ".join(all_greater_str), "=", (sum(all_greater)))
+    if len(all_greater) == 1:
+        print(all_greater[0])
+    else:
+        print(" + ".join(all_greater_str), "=", (sum(all_greater)))
 
 main()
