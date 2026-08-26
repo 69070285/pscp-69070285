@@ -4,22 +4,19 @@ def main():
     """Main Function"""
     amount, sign = input().split()
     amount = int(amount)
-    base = ord('A') if sign.isupper() else ord('a')
+    center = amount // 2
 
-    for i in range(1, amount + 1):
-        for j in range(1, amount + 1):
-            if sign == "#":
-                if i == j or i + j == amount + 1:
-                    print("#", end="")
+    for i in range(amount):
+        row = []
+        for j in range(amount):
+            if i == j or i + j == amount - 1:
+                if sign == "#":
+                    row.append("#")
                 else:
-                    print("-", end="")
+                    dist = abs(i - center)
+                    row.append(chr(ord(sign) + dist))
             else:
-                if i == j or i + j == amount + 1:
-                    distance = min(i - 1, amount - i)
-                    offset = (amount // 2) - distance
-                    print(chr(base + (ord(sign) - base + offset) % 26), end="")
-                else:
-                    print("-", end="")
-        print()
+                row.append("-")
+        print("".join(row))
 
 main()
