@@ -1,4 +1,4 @@
-"""RGB Mixed"""
+"""[LEARNING LOGS] RGB Mixed"""
 
 def mix_color(c1, c2):
     """Mix Color"""
