@@ -3,28 +3,33 @@
 def main():
     """Main Function"""
     wallet = int(input())
-    day = int(input())
+    day_count = int(input())
+    per_month = 1000
     success = 0
-    permonth = 1000
 
-    for _ in range(day):
-        if permonth < 200:
-            perday = permonth
-        else:
-            perday = 200
-        item_amount = int(input())
+    for _ in range(day_count):
+        per_day = 200
+        amount = int(input())
 
-        for _ in range(item_amount):
-            price = int(input()) * 100
-            pay = int(price * 0.4)
-            tht = (int(price * 0.6) + (pay % 100)) // 100
-            if tht > 200:
-                pay = (pay // 100) + (tht - perday)
-                tht = perday
-            else:
-                pay //= 100
+        for _ in range(amount):
+            price = int(input())
+            self = (price * 40) // 100
+            tht = price - self
 
-            if wallet >= 
-            
+            if tht > per_day:
+                tht = per_day
+            if tht > per_month:
+                tht = per_month
+
+            pay = price - tht
+            if wallet >= pay:
+                wallet -= pay
+                per_day -= tht
+                per_month -= tht
+                success += 1
+
+    print(success)
+    print(wallet)
+    print(1000 - per_month)
 
 main()
