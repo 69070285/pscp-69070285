@@ -1,4 +1,4 @@
-"""[ MINI EXAM ] Adventurer's Backpack"""
+"""[MINI EXAM] Adventurer's Backpack"""
 
 def main():
     """Main Function"""

@@ -1,4 +1,4 @@
-"""[ MINI EXAM ] Item checker"""
+"""[MINI EXAM] Item checker"""
 
 def main():
     """Main Function"""

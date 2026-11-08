@@ -1,4 +1,4 @@
-"""[ MINI EXAM ] Book shelf"""
+"""[MINI EXAM] Book shelf"""
 
 def main():
     """Main Fuction"""

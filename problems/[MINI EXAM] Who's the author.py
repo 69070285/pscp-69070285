@@ -1,4 +1,4 @@
-"""[ MINI EXAM ] Who's the author"""
+"""[MINI EXAM] Who's the author"""
 
 def main():
     """Main Function"""

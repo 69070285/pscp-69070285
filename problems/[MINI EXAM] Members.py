@@ -1,4 +1,4 @@
-"""[ MINI EXAM ] Members"""
+"""[MINI EXAM] Members"""
 
 def main():
     """Main Function"""

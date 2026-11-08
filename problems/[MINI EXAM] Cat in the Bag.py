@@ -1,4 +1,4 @@
-"""[ MINI EXAM ] Cat in the Bag"""
+"""[MINI EXAM] Cat in the Bag"""
 
 def main():
     """Main Function"""

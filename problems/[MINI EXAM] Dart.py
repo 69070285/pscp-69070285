@@ -1,4 +1,4 @@
-"""[ MINI EXAM ] Dart"""
+"""[MINI EXAM] Dart"""
 
 from math import sqrt
 
